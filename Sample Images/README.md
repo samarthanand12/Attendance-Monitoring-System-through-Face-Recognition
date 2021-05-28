@@ -1,1 +1,1 @@
-Sample Images
+<h1>Sample Images</h1>
