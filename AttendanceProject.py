@@ -21,8 +21,7 @@ except(OperationalError):
 import smtplib
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
-# server.login("keeptotalrecord@gmail.com", "Samarth@123")
-server.login("udyat@miet.ac.in", "miet@123")
+server.login("email here", "password_here")
 
 import pyttsx3
 engine = pyttsx3.init()
